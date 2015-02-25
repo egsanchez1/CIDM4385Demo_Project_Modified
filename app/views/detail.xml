@@ -1,0 +1,9 @@
+<!-- //views/detail.xml -->
+<Alloy>
+	<Model src="cars" instance="true" id="car" />
+	<Window id="detailWindow" model="$.car">
+		<Label id="make_lbl" text="{$.car.make}"></Label>
+		<Label id="model_lbl" text="{$.car.model}"></Label>
+		<Button id="closeBtn">Close Window</Button>
+	</Window>
+</Alloy>
